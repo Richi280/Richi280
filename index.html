@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="icon ri-close-line" onclick="closemenu()"></i>
+                </ul>
+                <i class="icon ri-menu-line" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>System Administrator</p>
+                <h1>Hi, I'm <span>Richard<br> from Ghana.</span></h1>
+            </div>
+        </div> 
+    </div>
+
+<!----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Richard Bekoe Tackie, and I am from Ghana. I am a graduate of Koforidua Technical University, a system administrator, and a graphic designer. I enjoy reading and problem solving. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX/Graphic Design</span><br>Designing web/app interfaces and posters for organisations.</li>
+                                <li><span>System Administrator</span><br>Managing user accounts and rights, as well as installing and configuring software and devices.</li>
+                                <li><span>Cyber Security Analyst</span><br>I collaborate with a team of security professionals to identify and mitigate threats, and you will be in charge of educating users about cyber security best practises.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
+                                <li><span>2017 - 2019</span><br>Internship at Cyber Ghana</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>Koforidua Technical University</li>
+                                <li><span>2016</span><br>Holy Trinity Cathedral SHS</li>
+                                <li><span>2014</span><br>Bishop mixed JHS</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------services------->
+    <div id="services">
+        
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                   <i class="ri-code-s-slash-line"></i> 
+                    <h2>UXUI/Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic natus recusandae repellat quas fugit facere culpa velit corporis, iusto perspiciatis placeat quasi, beatae voluptatum, 
+                        ipsum sed veniam ullam. Quae.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-crop-line"></i>
+                    <h2>System Administrator</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic natus recusandae repellat quas fugit facere culpa velit corporis, iusto perspiciatis placeat quasi, beatae voluptatum, 
+                        ipsum sed veniam ullam. Quae.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-app-store-line"></i>
+                    <h2>Cyber Security Analyst</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic natus recusandae repellat quas fugit facere culpa velit corporis, iusto perspiciatis placeat quasi, beatae voluptatum, 
+                        ipsum sed veniam ullam. Quae.</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------Portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/phone.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/party.png.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Ecommerce App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!---------Contact--------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="ri-paper-plane-line"></i> bekoer37@gmail.com</p>
+                    <p><i class="ri-phone-line"></i> 0544260323</p>
+                    <div class="social-icons">
+                        <a href=""><i class="ri-facebook-line"></i></a>
+                        <a href=""><i class="ri-twitter-line"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""><i class="ri-linkedin-line"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="'submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Richard.</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+
+
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbwgV1KPmEZ_TE-rEA7CBcOEHUwSaBAK-CjK7pkADhX8sD24VrbfPl0j0nVplVaZ-xUF/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+   
+  </script>
+
+</body>
+</html>
